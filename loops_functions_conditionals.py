@@ -1,6 +1,6 @@
 #loops, functions, conditionals
 #loops are the best in Python. They let you go through all the items in a list, or anything else that's "iterable"
-myList = ["the", "at", "he", "she", "it", "me", "you"]
+myList = ["the", "at", "he", "she", "the", "it", "me", "the", "you", "he"]
 
 #note that Python uses indented newlines to tell the computer we're still "in" the the loop
 for i in myList:
@@ -31,4 +31,4 @@ for i in myList:
      elif i == "you":
          myFunction(i)
      else:
-         myFunction(i) 
+         myFunction(i)
