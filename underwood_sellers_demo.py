@@ -1,4 +1,12 @@
+import csv
 #read dictionary.com values into a Python dictionary
+dictionary_com = {}
+with open('Etymologies.txt') as myfile:
+    for line in csv.reader(myfile, dialect="excel-tab"):
+        dictionary_com[line[0]] = line[1]
+
+print(dictionary_com)
+
 #loop, read() files
 #tokenize, lowercase, remove newlines and tabs, strip punctuation and numbers
 #part of speech tagging with nltk unigram tagger
@@ -13,6 +21,13 @@ for i in masc_tagged.fileids():
 
 t = []
 t.append(tags)
+
+# if running this script in binder, comment out lines 5 through 15 and remove the triple quotes on lines 18 and 21 top uncomment the pickle version.
+"""
+import pickle
+t = pickle.load(open('tagger.p', 'rb'))
+"""
+
 unigram_tagger = nltk.UnigramTagger(t)
 int_uni_pos = unigram_tagger.tag(tokens_all)
 
