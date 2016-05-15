@@ -19,6 +19,11 @@ In this repository are snippets of Python code to run in a Jupyter Notebook. Wor
 
 Once the Notebook launches, click for_snippets.ipynb to launch the empty Notebook (Python 3 kernel). Then paste code into a cell and hit the play button to interact with it. If you're still confused, check out this video on using Jupyter Notebooks: https://www.youtube.com/watch?v=Rc4JQWowG5I
 
+If you'd like to make and save changes to a notebook, you can do so from within the interpreter and click "File > Download" to save your work to a home computer. You can also clone the entire repository and run it locally on your home jupyter install. 
+
+If you simply want to view a static version of the notebook with all of the code already executed (and all print statements printed), you can click on any Github link to an .ipynb file.
+
+
 ### The snippet files, in their original order, are:
 
 1. basic_types.py
