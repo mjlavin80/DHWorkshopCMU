@@ -26,13 +26,13 @@ Once the Notebook launches, click for_snippets.ipynb to launch the empty Noteboo
 3. libraries.py
 4. working_with_text.py
 
-Note: I've preloaded working_with_text.py into a Python Notebook called MattLavin.ipynb. If you want to run those snippets, you can do so all at once by launching that Notebook using the Mybinder link. The challenge at the bottom, to "make a loop to remove stopwords and see which ones are most common," is solved in solution.py but, the list of stopwords in English depends on data downloaded from nltk-download(), which will not work on mybinder.org. So solution.py has the original code commented out and includes a local list of the same stopwords.
+Note: I've preloaded working_with_text.py into a Python Notebook called MattLavin.ipynb. If you want to run those snippets, you can do so all at once by launching that Notebook using the Mybinder link. The challenge at the bottom, to "make a loop to remove stopwords and see which ones are most common," is solved in solution.py but, the list of stopwords in English depends on data downloaded from nltk-download(), which will not work on mybinder.org. So solution.py has the original code commented out and includes a local list of the same stopwords. If running this script on mybinder, uncomment lines 8-21 and comment lines 4-5.
 
 ### Interactive Demo
 The script for this portion of the workshop is in underwood_sellers_demo.py. The article descriving their work is here: http://journalofdigitalhumanities.org/1-2/the-emergence-of-literary-diction-by-ted-underwood-and-jordan-sellers/
 The demo does not replicate their work precisely but instead attempts to sketch out some of the fundamental computational text analysis skills necessary to do something like what they did. For convenience, my version works with a much smaller set of texts and does not employ an intervening database (although it could be adapted to do so quite easily).
 
-Note: This demo trains a unigram tagger using data downloaded from nltk-download(), which will not work on mybinder.org. As a result, I've modified the  If running this script on mybinder, uncomment lines w-x and comment lines y-z.
+Note: This demo trains a unigram tagger using data downloaded from nltk-download(), which will not work on mybinder.org. As a result, I've modified the  If running this script on mybinder, uncomment lines 22-24 and comment lines  8-19.
 
 ## Additional Topics and Resources
 These topics and links are here for the benefit of workshop participants, but others might find them useful.
