@@ -48,7 +48,7 @@ for i in text:
     all_texts_pos.append(uni_pos)
 
 
-function_symbols = ['DT', 'IN', 'CC', 'PRP,' 'PRP$', 'WP', 'WP$']
+function_symbols = ['DT', 'IN', 'CC', 'PRP', 'PRP$', 'WP', 'WP$']
 token_sets = []
 for token_list in all_texts_pos:
     #remove function words from test texts: determiners, prepositions, conjunctions, and pronouns
