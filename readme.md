@@ -4,10 +4,10 @@ This repository is a collection of files designed for my workshop on digital lit
 
 ## Workshop Schedule and Instructions
 
-15-20 minutes: Activity reading text excerpts.
-30-40 minutes: Basics of Python 3 (interactive).
-30-40 minutes: Unpacking Ted Underwood and Jordan Sellers on "Literary Diction."
-20 minutes: Wrapping up, next steps, reflecting.
+1. 15-20 minutes: Activity reading text excerpts.
+2. 30-40 minutes: Basics of Python 3 (interactive).
+3. 30-40 minutes: Unpacking Ted Underwood and Jordan Sellers on "Literary Diction."
+4. 20 minutes: Wrapping up, next steps, reflecting.
 
 ## Instructions
 ### Text Excerpts Activity:
