@@ -1,7 +1,7 @@
 import csv, nltk, glob
 #read dictionary.com values into a Python dictionary
 dictionary_com = {}
-with open('Etymologies.txt') as myfile:
+with open('Etymologies.txt', encoding="utf8") as myfile:
     for line in csv.reader(myfile, dialect="excel-tab"):
         dictionary_com[line[0]] = int(line[1])
 
@@ -54,10 +54,11 @@ for token_list in all_texts_pos:
     #remove function words from test texts: determiners, prepositions, conjunctions, and pronouns
     token_set = []
     for token in token_list:
-        if token[1] not in function_symbols:
+        #if token[1] not in function_symbols:
+        if token[0] not in s:
             token_set.append(token[0])
     #convert full term lists to lists with each term listed only once (aka a "set")
-    token_set = set(token_set)
+    #token_set = set(token_set)
     token_sets.append(token_set)
 
 #loop through each term set, derive "the ratio of pre- and post-twelfth-century words"
@@ -70,7 +71,7 @@ for token_set in token_sets:
             year = dictionary_com[token]
             if year < 1100:
                 pre += 1
-            if year > 1100:
+            if year > 1100 and year < 1700:
                 post +=1
         except:
             pass
