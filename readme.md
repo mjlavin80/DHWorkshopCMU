@@ -40,6 +40,29 @@ The demo does not replicate their work precisely but instead attempts to sketch 
 Note: This demo trains a unigram tagger using data downloaded from nltk-download(), which will not work on mybinder.org. As a result, I've modified the  If running this script on mybinder, uncomment lines 22-24 and comment lines  8-19.
 
 ## Additional Topics and Resources
-These topics and links are here for the benefit of workshop participants, but others might find them useful.
+These topics and links are here for the benefit of workshop participants, but others might find them useful. By no means an exhaustive list.
+
+#### Topics to Explore
+- Regular Expressions (Lynda)
+- Web Scraping (various on Youtube)
+- Selenium (http://selenium-python.readthedocs.io/getting-started.html)
+- Traversing XML (various)
+- SQLite3 (Lynda)
+- Object-oriented Programming in Python (Lynda)
+
+#### Other Libraries of Interest
+- Jupyter Notebooks: Reproducible, interactive Python code!
+- Flask: Lightweight Python for the web
+- Pandas: R style data frames for Python
+- Scikit Learn: Machine Learning
+- Gensim: Topic Modeling
+
+#### General Tutorials and Discussion
+- Codecademy: solid intro to Python tutorial series (http://codecademy.com)
+- Lynda.com: Python 3. Very good tutorials on object-oriented programming and regex (http://lynda.com)
+- NLTK Book: a staple for the Natural Language Toolkit (http://www.nltk.org/book/)
+- The Hitchhiker's Guide to Python: http://docs.python-guide.org/en/latest/
+- Talk Python to Me: a Python-themed podcast (https://talkpython.fm/)
+- Stack Overflow (http://stackoverflow.com/questions/tagged/python)
 
 [![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/mjlavin80/basics_of_text_analysis_in_python)
