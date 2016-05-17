@@ -71,7 +71,7 @@ for token_set in token_sets:
             year = dictionary_com[token]
             if year < 1100:
                 pre += 1
-            if year > 1100 and year < 1700:
+            if year > 1100:
                 post +=1
         except:
             pass
