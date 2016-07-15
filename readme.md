@@ -65,4 +65,4 @@ These topics and links are here for the benefit of workshop participants, but ot
 - Talk Python to Me: a Python-themed podcast (https://talkpython.fm/)
 - Stack Overflow (http://stackoverflow.com/questions/tagged/python)
 
-[![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/mjlavin80/DHWorkshopCMU)
+[![Binder](http://mybinder.org/badge.svg)](http://mybinder.org:/repo/mjlavin80/dhworkshopcmu)
